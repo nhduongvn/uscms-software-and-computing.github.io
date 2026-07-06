@@ -1,0 +1,462 @@
+<!doctype html>
+
+<html lang="en-US">
+    <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<title>Post-doctoral researcher - US CMS Software and Computing</title>
+<link rel="stylesheet" href="/assets/css/bootstrap.css" crossorigin="anonymous">
+<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="stylesheet" href="/assets/css/org-chart.css">
+<script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+</head>
+
+  <body>
+
+    
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="/"><span><img height="64" src="/assets/logos/USCMS_SC_logo.png" alt="USCMS Software and Computing"></span>
+          U.S. CMS Software and Computing
+        </a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="aboutDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+                    <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+                        <a class="dropdown-item" href="/about/overview">Overview</a>
+                        <a class="dropdown-item" href="/about/team">Team</a>
+                        <a class="dropdown-item" href="/docs">Documentation</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="areasDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Areas</a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="areasDropdown">
+                        
+                        
+                        <a class="dropdown-item" href="/wbs1-facilities.html">Facilities</a>
+                        
+                        <a class="dropdown-item" href="/wbs2-software.html">Software</a>
+                        
+                        <a class="dropdown-item" href="/wbs3-operations.html">Operations</a>
+                        
+                        <a class="dropdown-item" href="/wbs4-facilities.html">HL-LHC R&D</a>
+                        
+                    </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/postdocs">Research Initiative</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/interns">Interns</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    
+
+
+
+<div id="container">
+  <div class="container">
+    <main role="main">
+
+      <div>
+        <br>
+        <h1 class="text-center">USCMS Researcher: Kelci Mohrman</h1>
+
+          <div class="text-center">
+          <img src="/assets/images/team/Kelci-Mohrman.png" width="150px">
+          <br>
+          <br>
+          <b> Postdoc dates: </b>
+          Sep 2023 - Aug 2025<br/>
+
+          <br>
+          <b> Home Institution:</b> University of Florida
+          <br>
+          <br>
+          </div>
+
+        <br>
+        <h3>Project: Benchmarking current capabilities and exploring the acceleration of columnar processing via heterogeneous architectures (2025) and Deploying GPU algorithms through SONIC (2023)</h3>
+
+        <br> <b>2024-2025: Benchmarking current capabilities and exploring the acceleration of columnar processing via heterogeneous architectures </b> <br>  This project aims to benchmark the performance of the step of late-stage data analysis (in which nanoAOD formatted data is transformed into histograms) for realistic CMS analyses in order to understand current capabilities, scaling, and bottlenecks for columnar analysis workflows; acceleration of the columnar processing via GPU offloading will also be explored.  The results of these studies will help to illuminate the challenges and opportunities that lie ahead as CMS pushes towards rapid and efficient turnarounds of HL-LHC physics analyses.  An ongoing CMS multi-boson analysis will be used as the example application for the proposed explorations.  The analysis is fairly representative of a mature CMS analysis studying Run 2 and early Run 3 data, and is implemented in the coffea framework.  We will aim to benchmark the performance that is able to be achieved under various configurations in order to understand where the bottlenecks lie and how the analysis scales towards skimming and processing larger data volumes.  We will also aim to demonstrate the feasibility of running a portion of the analysis on GPUs and to enumerate the developments that would remain in order to run the analysis fully on GPUs. <br>  <a href=http://uaf-10.t2.ucsd.edu/~kmohrman/for_uscms/uscms_r_and_d_proposal_2024_coffea/Kelci-Mohrman-2024.pdf>2024 Project proposal</a> <br> <br>  <b>2023-2024: Deploying GPU algorithms through SONIC </b> <br>  The goal of the project was to implement a version of the Line Segment Tracking (LST) algorithm with the SONIC framework in order to enable flexible and efficient GPU usage.  Because reconstruction tasks constitutes the largest fraction of CMS data processing, it is important to understand the resource requirements and to explore options for improving the efficiency of these steps.  To this end, CMS is exploring reconstruction algorithms that are designed to make use of GPU resources.  These include LST, which is a tracking algorithm that takes advantage of double-layer design of the HL-LHC outer tracker in order to perform hit correlations in a parallel way with GPUs. With more algorithms requiring GPU resources, it is important to understand the resource requirements and strategies for ensuring efficient deployment and usage.  The SONIC framework provides the ability to make use of GPUs "as a service", enabling GPUs to be factored out of CPU machines.  With this approach, the GPU-based servers may be remote from the CPU-based servers, potentially allowing for more flexibility in the usage of GPU resources. <br>  <a href=http://uaf-10.t2.ucsd.edu/~kmohrman/for_uscms/uscms_r_and_d_proposal_2023_soniclst/Kelci-Mohrman.pdf>2023 Project proposal</a> <br> 
+
+        <br>
+        <br>
+        More information: <a href = "">My project proposal</a><br> 
+
+        <br>
+        <b>Mentors: </b> <br>
+        <ul>
+          
+          <li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <p>Philip Chang - (University of Florida)</p>
+
+            
+          </li>
+          
+        </ul>
+        
+
+
+        <b>Presentations</b>
+        <ul>
+          
+          
+          <li>17 Dec 2025 - <a href="https://indico.cern.ch/event/1615345/#2-updates-on-analysis-workflow">"Update on end-user analysis R&D and benchmarking studies"</a>, Kelci Mohrman, <a href="https://indico.cern.ch/event/1615345/">CMS CAT general meeting</a>
+            
+          
+          
+          <li>8 Dec 2025 - <a href="https://indico.cern.ch/event/1535613/page/40626-poster-session">"Towards rapid and efficient analyses at scale"</a>, Kelci Mohrman, <a href="https://indico.cern.ch/event/1535613/">CMS Week December 2025, Seoul, South Korea (poster session)</a>
+            
+          
+          
+          <li>28 Aug 2025 - <a href="https://indico.cern.ch/event/1493037/timetable/?view=standard#347-towards-rapid-and-efficien">"Towards rapid and efficient analyses at scale"</a>, Kelci Mohrman, <a href="https://agenda.hep.wisc.edu/event/2188/">Lepton Photon 2025 (poster session)</a>
+            
+          
+          
+          <li>23 Jul 2025 - <a href="https://indico.cern.ch/event/1565053/#2-benchmarking-analysis-workfl">"Benchmarking analysis workflows"</a>, Kelci Mohrman, <a href="https://indico.cern.ch/event/1565053">CMS CAT general meeting</a>
+            
+          
+          
+          <li>14 Jul 2025 - <a href="https://indico.cern.ch/event/1515852/timetable/?view=standard#9-towards-rapid-and-efficient">"Towards rapid and efficient columnar-based analyses at scale"</a>, Kelci Mohrman, <a href="https://indico.cern.ch/event/1515852/">PyHEP.dev 2025 - Python in HEP Developer's Workshop</a>
+            
+          
+          
+          <li>21 May 2025 - <a href="https://indico.cern.ch/event/1499327/contributions/6510006/">"Towards rapid and efficient analyses at scale"</a>, Kelci Mohrman, <a href="https://indico.cern.ch/event/1499327/">2025 US CMS Annual Collaboration Meeting (poster session)</a>
+            
+          
+          
+          <li>9 Sep 2024 - <a href="https://indico.cern.ch/event/1443183/contributions/6095381/attachments/2923974/5132502/sonic_lst_summary_sep09_2024.pdf">"LST with SONIC framework"</a>, Kelci Mohrman, <a href="https://indico.cern.ch/event/1443183/#50-update-on-soniclst-developm">Tracking POG Meeting</a>
+            
+          
+          
+          <li>3 Jun 2024 - <a href="https://indico.cern.ch/event/1418266/contributions/5961841/attachments/2869550/5023598/sonic_lst_update_jun03_2024.pdf">"Line Segment Tracking using SONIC"</a>, Kelci Mohrman, <a href="https://indico.cern.ch/event/1418266/#35-line-segment-tracking-using">Tracking POG Meeting</a>
+            
+          
+          
+          <li>12 Feb 2024 - <a href="https://indico.cern.ch/event/1374894/contributions/5778400/attachments/2799411/4883360/sonic_lst_update_feb12_2024.pdf">"Project status update: LST with the SONIC framework"</a>, Kelci Mohrman, <a href="https://indico.cern.ch/event/1374894/">Tracking POG Meeting</a>
+            
+          
+          
+          <li>23 Oct 2023 - <a href="https://indico.cern.ch/event/1337451/contributions/5630393/attachments/2738948/4763938/kmohrman_sonic_lst_intro_oct23_2023.pdf">"Project introduction and plans: LST with the SONIC framework"</a>, Kelci Mohrman, <a href="https://indico.cern.ch/event/1337451/">Tracking POG Meeting</a>
+            
+          
+        </ul>
+        <hr>
+
+        <b>Current Status</b>
+        <br>
+        <p><br /> <b>2025 Q4 </b> <br /></p>
+<ul>
+  <li>Testing the coffea202X skimming capabilities and benchmarking performance:
+    <ul>
+      <li>Explored performance of alternative configurations (methods of file access, executors)</li>
+    </ul>
+  </li>
+  <li>Explore the acceleration of the columnar processing via GPU offloading:
+    <ul>
+      <li>Investigated precision differences between GPU and CPU implementations in collaboration with awkward and Nvidia experts</li>
+      <li>Ran and documented performance of ADL benchmark queries with 10M events on B200 GPU at UF Hipergator</li>
+      <li>Identified all awkward functions used in the processor of a representative coffea-based CMS analysis (SMP-24-015) and identified which ones are available or missing on GPU</li>
+    </ul>
+  </li>
+</ul>
+
+<p><br /> <b>2025 Q3 </b> <br /></p>
+<ul>
+  <li>Testing the coffea202X skimming capabilities and benchmarking performance:
+    <ul>
+      <li>Implement standalone (i.e., without  Dynamic Data Reduction framework) cortado with the new virtual array based coffea</li>
+      <li>Physics validation of skimmed output: Verify number of events are as expected, identify and report an issue with docstrings not being properly written into the output</li>
+      <li>Tested runs with multiple concurrent instances of the skimming application</li>
+    </ul>
+  </li>
+  <li>Explore the acceleration of the columnar processing via GPU offloading:
+    <ul>
+      <li>Implement finer-grained timing of queries to identify how the CPU/GPU timing compares for each step, and improve the timing method for GPU queries to ensure synchronization</li>
+      <li>Test and validate the bug fixes and new features (via comparison with CPU version of ADL benchmarks) as they are implemented by the developers of awkward</li>
+      <li>Queries 1-7 running on GPU with generally good CPU/GPU agreement. Investigations of precision differences, and of a memory error (in Query 8) ongoing.</li>
+    </ul>
+  </li>
+</ul>
+
+<p><br /> <b>2025 Q2 </b> <br /></p>
+<ul>
+  <li>Testing the coffea202X skimming capabilities and benchmarking performance:
+    <ul>
+      <li>Testing the skimming workflow (cortado) developed last quarter, now running at realistic R2+R3 scale, with unskimmed inputs from SMP-24-015 (200/fb) as the test case</li>
+      <li>Encountered challenges when attempting to process datasets in parallel, working with TaskVine developers on handling this, using their new “dynamic data reduction” implementation with cortado</li>
+      <li>Benchmarking wall time and Hz/core with varying numbers of CPU cores (at UF T2)</li>
+      <li>Able to achieve processing of full 13 TB inputs in a few hours with a few thousand cores (at UF)</li>
+      <li>Physics validation of output skim underway, debugging in progress</li>
+    </ul>
+  </li>
+  <li>Explore the acceleration of the columnar processing via GPU offloading:
+    <ul>
+      <li>Working on implementing and testing 8 ADL Benchmark Queries on GPU</li>
+      <li>Four Queries are successfully implemented and show agreement with CPU outputs</li>
+      <li>Four Queries have uncovered bugs in the cuda backends, reported on the relevant repositories, with debugging is in progress</li>
+      <li>Performance comparisons of the GPU implemented Queries show performance improvements (over CPU) of up to ~800x</li>
+    </ul>
+  </li>
+</ul>
+
+<p><br /> <b>2025 Q1 </b> <br /></p>
+<ul>
+  <li>Progress on testing the coffea202X skimming capabilities and benchmark performance:
+    <ul>
+      <li>Set up a coffea 202X-based skimming workflow (cortado)</li>
+      <li>Tested single file and single dataset (~4M events) runs locally and with the TaskVine scheduler, and documenting performance</li>
+      <li>Working towards realistic R2+R3 scale tests: Transferred a realistic R2+R3 200/fb scale set of unskimmed samples to the UF T2 (~13.5 TB, ~12B events, ~400 datasets of data and MC, corresponding to the set used in the SMP-24-015 analysis)</li>
+    </ul>
+  </li>
+</ul>
+
+<p><br /> <b>2024 Q4 </b> <br /></p>
+<ul>
+  <li>Wrapped up project, prepared the project summary document, documented the code and setup *   Worked with SONIC team to help with the handoff of the project, helping to get another member of the team set up and successfully run the SONIC+LST workflow *   Transitioning into columnar R&amp;D project (benchmark the performance of the step of end-user data analysis, and explore the acceleration of columnar processing with GPUs)
+    <ul>
+      <li>Starting with the exploration of the the performance and scaling of the skimming step with coffea 202X</li>
+      <li>Progress: successfully set up and ran a 202X skimmer on one file</li>
+    </ul>
+  </li>
+</ul>
+
+<p><br /> <b>2024 Q3 </b> <br /></p>
+<ul>
+  <li>Progress
+    <ul>
+      <li>Set up the larger-scale “step3” LST workflow implemented with SONIC (previously had just been running a testing workflow)</li>
+      <li>Performed qualitative validation of SONICized LST implementation of the step3 workflow (by running producing the DQM plots and comparing with master branch SONIC)
+        <ul>
+          <li>Obtained qualitative agreement. (Exact agreement not expected because the versions of LST being used are slightly different between the master branch and the SONICized implementation. The SONIC LST backend is based on the outdated cuda_branch of LST because Alpaka is not yet available in the server environment for SONIC.)</li>
+        </ul>
+      </li>
+      <li>Performed more detailed timing studies (at the Purdue T2)
+        <ul>
+          <li>Tested running with multiple concurrent instances of LST cmsRun jobs and measured the runtime and examined the GPU usage</li>
+          <li>Observed the scaling behavior (larger numbers of concurrent instances were taking disproportionately longer to run) but did not seem to be due to saturating the GPU (so there would likely be a bottleneck elsewhere)</li>
+          <li>Observed some differences in the run times between the master branch of LST and the SONICized LST</li>
+          <li>Encountered memory errors before we could saturate the GPU</li>
+          <li>Set up the SONICized LST implementation at a different site (UF T2) and demonstrated successful runs with the client at the Purdue T2 and the server at the UF T2 (and the other way around)</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<p><br /> <b>2024 Q2 </b> <br /></p>
+<ul>
+  <li>Progress
+    <ul>
+      <li>Completed first working version of SONICized LST client and backend (where data is passed from client to server, LST evaluations are performed at the server, and outputs are sent back to the client)</li>
+      <li>Demonstrated the ability to run the SONICized LST workflow with client and server on different nodes at the same site (Purdue)</li>
+      <li>Performed preliminary timing studies of a simple testing workflow, obtained comparable performance to the standard non-SONIC LST</li>
+      <li>Currently working on tracking down some differences between SONICized LST results and the main branch results</li>
+    </ul>
+  </li>
+  <li>Next steps
+    <ul>
+      <li>Further timing studies to explore the behavior with multiple concurrent instances of the LST workflow (to understand the scaling and how many instances are required to saturate the GPU)</li>
+      <li>Depending on progress, potentially explore moving to Alpaka backend</li>
+      <li>Depending on progress, potentially attempt to execute the SONICized LST with client and server at different sites (e.g. UF and Purdue)</li>
+    </ul>
+  </li>
+</ul>
+
+<p><br /> <b>2024 Q1</b> <br /></p>
+<ul>
+  <li>Progress
+    <ul>
+      <li>Removed ROOT dependencies from LST in order to enable the successful compilation and running of the standalone TrackLooper LST within the server singularity environment from an existing example</li>
+      <li>Created a backend (modeled after the identity_backend example) that can compile and run LST (though currently the inputs to the evaluation are already hard coded within the backend) using an example client as a standin to trigger the backend code to be run</li>
+    </ul>
+  </li>
+  <li>Next steps
+    <ul>
+      <li>Work on connecting the LST client side with the server side to enable the transfer LST inputs from the client to the backend, and to return the results back to the client</li>
+    </ul>
+  </li>
+</ul>
+
+<p><br /> <b>2023 Q4</b> <br /></p>
+<ul>
+  <li>Progress
+    <ul>
+      <li>Successfully set up and ran an example at Purdue and at UF</li>
+      <li>Produced a draft version of SONIC compatible LST producer</li>
+      <li>Using the server singularity environment, currently working to compile LST code within the singularity environment (involves extracting LST code from ROOT dependence and validating the changes)</li>
+    </ul>
+  </li>
+  <li>Next steps
+    <ul>
+      <li>Validate the version of the LST code where the ROOT dependences have been removed (and create a PR)</li>
+      <li>Once the LST code is independent from ROOT and able to be compiled within the singularity env, the next step will be to interface between the server side and client side</li>
+    </ul>
+  </li>
+</ul>
+
+<p><br /> <b>2023 Q3</b> <br /></p>
+<ul>
+  <li>Progress
+    <ul>
+      <li>Learned to run the LST workflow in order to reproduce LST plots</li>
+      <li>Have gotten set up at Purdue and run their test workflow (MAOD workflow) and successfully ran the setup where the cmsRun script runs on the login node, and the cmsTriton script runs on a different node</li>
+      <li>Have gotten the workflow (same one we got running at Purdue) running at UF (with cmsRun on one node without any GPUs and cmsTriton on a different node)</li>
+      <li>Tested with cmsRun at Purdue and cmsTriton at UF, but hit issue with nodes not being able to talk to each other, paused this direction for now</li>
+      <li>Began working to adapt the LST workflow with SONIC, starting on the “client side” i.e. reworking the producer with SONIC</li>
+    </ul>
+  </li>
+  <li>Next steps
+    <ul>
+      <li>Plan to continue to adapt the LST workflow with SONIC</li>
+      <li>Will present an overview of the project at tracker meeting Oct 30, 2023</li>
+    </ul>
+  </li>
+</ul>
+
+        <br>
+        <br>
+        
+        <b>Contact me:</b><br>
+        <ul>
+          
+          <li>
+            <i class="fas fa-envelope-square"></i><a href = "mailto:k.mohrman@ufl.edu"> Send me an email</a><br>
+          </li>
+          
+          
+          
+           
+          
+        </ul>
+
+        <div>
+          
+
+        </div>
+
+      </div>
+    </main>
+  </div>
+  <footer>
+  <div class="footer-dark">
+    <div class="container">
+      <div class="d-flex flex-row">
+        <div class="footer-vertical-center">
+          <div class="footer-logos">
+            <div class="footer-logo">
+              <img src="/assets/logos/USCMS_SC_logo.png" alt="USCMS logo">
+            </div>
+            <div class="footer-logo">
+              <img src="/assets/logos/doe.png" alt="DOE logo">
+            </div>
+            <div class="footer-logo">
+              <img src="/assets/logos/nsf-logo-128.png" alt="NSF logo">
+            </div>
+
+          </div>
+        </div>
+
+        <div class="footer-text p-2 ml-auto flex-grow-1 footer-vertical-center">
+
+        </div>
+        </div>
+      </div>
+    </div>
+</footer>
+
+</div>
+
+</body>
+</html>

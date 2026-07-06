@@ -1,0 +1,178 @@
+<!doctype html>
+
+<html lang="en-US">
+    <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<title>Software - US CMS Software and Computing</title>
+<link rel="stylesheet" href="/assets/css/bootstrap.css" crossorigin="anonymous">
+<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="stylesheet" href="/assets/css/org-chart.css">
+<script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+</head>
+
+  <body>
+
+    
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="/"><span><img height="64" src="/assets/logos/USCMS_SC_logo.png" alt="USCMS Software and Computing"></span>
+          U.S. CMS Software and Computing
+        </a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="aboutDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+                    <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+                        <a class="dropdown-item" href="/about/overview">Overview</a>
+                        <a class="dropdown-item" href="/about/team">Team</a>
+                        <a class="dropdown-item" href="/docs">Documentation</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown active">
+                    <a href="#" class="nav-link dropdown-toggle" id="areasDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Areas</a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="areasDropdown">
+                        
+                        
+                        <a class="dropdown-item" href="/wbs1-facilities.html">Facilities</a>
+                        
+                        <a class="dropdown-item" href="/wbs2-software.html">Software</a>
+                        
+                        <a class="dropdown-item" href="/wbs3-operations.html">Operations</a>
+                        
+                        <a class="dropdown-item" href="/wbs4-facilities.html">HL-LHC R&D</a>
+                        
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/postdocs">Research Initiative</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/interns">Interns</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    
+
+<div id="container">
+  <div class="container">
+    <main role="main">
+
+      <div class="container">
+        <br>
+        <h1 class="text-center">Software</h1>
+          <div class="d-flex">
+            <div class="row flex-fill">  
+              
+
+
+              
+
+              
+                
+
+                
+                  <div class="card" style="width: 12rem;">
+ <img class="card-img-top" src="/assets/images/team/Saba_Sehrish.jpg" alt="Card image cap">
+ <div class="card-body d-flex flex-column">
+ <div class="card-text">
+ 
+    <b>Saba Sehrish</b><br>
+ 
+ <small>Fermilab</small><br><br>
+ </div>
+ <div class="card-text mt-auto"><i><p>Software Co-leader</p>
+</i><br></div>
+ </div>
+</div>
+
+                
+                  <div class="card" style="width: 12rem;">
+ <img class="card-img-top" src="/assets/images/team/Kevin_Lannon.jpeg" alt="Card image cap">
+ <div class="card-body d-flex flex-column">
+ <div class="card-text">
+ 
+    <b><a href="https://physics.nd.edu/people/faculty/kevin-lannon/">Kevin Lannon</a></b><br>
+ 
+ <small>University of Notre Dame</small><br><br>
+ </div>
+ <div class="card-text mt-auto"><i><p>Software Co-leader</p>
+</i><br></div>
+ </div>
+</div>
+
+                
+              
+            </div>
+          </div>
+
+        <h2 id="overview">Overview</h2>
+<p>The Software group develops and supports software that enables CMS data processing.  This software is roughly divided into two categories:  <em>Computing Infrastructure and Services</em> software facilitates data processing by moving data and scheduling computational tasks to distribute data processing across the globally distributed CMS computational resources. <em>Framework and Applications</em> software provides the physics algorithms, detector simulation, and the supporting framework that processes CMS data.</p>
+
+<h3 id="21-computing-infrastructure-and-services">2.1 Computing Infrastructure and Services</h3>
+<ul>
+  <li><strong>2.1.1 Data Management Metadata</strong> refers to the services that track metadata for CMS data handling.  The two serices are the CMS <em>Data Bookeeping Service</em> (DBS) and the <em>Data Aggregation System</em> (DAS).  Both pieces of software provide facilities for locating data and tracking metadata.</li>
+  <li><strong>2.1.2 Monitoring</strong> refers to the collection of software, web services, and infrastructure to facilitate monitoring, both in real time and historical, of CMS data processing.</li>
+  <li><strong>2.1.3 Rucio</strong> software manages data transfers across the globally distributed CMS computational infrastructure.  Rucio is community-supported software used across a number of HEP experiments.  U.S. CMS is leading the transition of CMS to Rucio to achieve more powerful and flexible data management capabilities.</li>
+  <li><strong>2.1.4 GlideinWMS</strong> is the software resposible for provisioning computing resources for CMS.  It creates a <em>global pool</em> of computational resources and handles matching of computational tasks with the appropriate resources on which to execute them.</li>
+  <li><strong>2.1.5 Workflow Management</strong> software converts abstract workflows into sets of computational tasks that can be executed with the CMS global pool.  This software is responsible for coordinating and controlling the computational work of data processing as well as tracking its progress.</li>
+  <li><strong>2.1.6 XRootD</strong> software provides the capability to stream data from storage at one computational site to a processing task at a different site.  This capability increases the flexibility of the CMS distributed computational infrastructure.</li>
+  <li><strong>2.1.7 Web Services Deployment</strong> is the infrastructure facilitating the deployment of web services in support of data processing.  The underlying technology involves Docker containers orchestrated via Kubernetes.</li>
+</ul>
+
+<h3 id="22-framework-and-applications">2.2 Framework and Applications</h3>
+<ul>
+  <li><strong>2.2.1 Framework</strong> CMSSW framework provides the ability to write reconstruction and analysis applications in a multi-threaded-capable environment with an improved efficiency.</li>
+  <li><strong>2.2.2 FWLite</strong> known as Framework-light enables users to write analysis code in ROOT sessions with CMS data formats and libraries available.</li>
+  <li><strong>2.2.3 Profiling</strong> refers to the effort related to  profiling automation of the workflows in collaboration with the CMS Computing Modernization working group, and ensuring that CMSSW code is compliant with modern C++ standards, and can compile and run on advanced hardware with new architectures.</li>
+  <li><strong>2.2.4 ROOT</strong> CMS uses ROOT to make data objects persistent. ROOT provides all the functionalities needed to deal with big data processing, statistical analysis, visualization and storage.</li>
+  <li><strong>2.2.5 Simulation Geometry</strong> corresponds to the detector geometry maintenance and upgrades to provide detector geometry information to the simulation and reconstruction applications of CMS. The most critical ongoing work is migration to DD4HEP for Run3.</li>
+</ul>
+
+      </div>
+    </main>
+  </div>
+
+      <footer>
+  <div class="footer-dark">
+    <div class="container">
+      <div class="d-flex flex-row">
+        <div class="footer-vertical-center">
+          <div class="footer-logos">
+            <div class="footer-logo">
+              <img src="/assets/logos/USCMS_SC_logo.png" alt="USCMS logo">
+            </div>
+            <div class="footer-logo">
+              <img src="/assets/logos/doe.png" alt="DOE logo">
+            </div>
+            <div class="footer-logo">
+              <img src="/assets/logos/nsf-logo-128.png" alt="NSF logo">
+            </div>
+
+          </div>
+        </div>
+
+        <div class="footer-text p-2 ml-auto flex-grow-1 footer-vertical-center">
+
+        </div>
+        </div>
+      </div>
+    </div>
+</footer>
+
+</div>
+</body>
+</html>
